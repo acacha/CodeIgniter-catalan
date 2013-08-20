@@ -1,5 +1,7 @@
 <?php
 
+/* Sergi Tur Badenas: https://github.com/acacha/CodeIgniter-catalan*/
+
 $lang['required'] = 'El camp %s &eacute;s obligatori.';
 $lang['isset'] = 'El camp %s no pot quedar buit.';
 $lang['valid_email'] = 'El camp %s ha de contenir una direcci&oacute; de mail v&agrave;lida.';

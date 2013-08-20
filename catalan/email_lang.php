@@ -1,23 +1,25 @@
 <?php
 
-$lang['email_must_be_array'] = "The email validation method must be passed an array.";
-$lang['email_invalid_address'] = "Invalid email address: %s";
-$lang['email_attachment_missing'] = "Unable to locate the following email attachment: %s";
-$lang['email_attachment_unreadable'] = "Unable to open this attachment: %s";
-$lang['email_no_recipients'] = "You must include recipients: To, Cc, or Bcc";
-$lang['email_send_failure_phpmail'] = "Unable to send email using PHP mail().  Your server might not be configured to send mail using this method.";
-$lang['email_send_failure_sendmail'] = "Unable to send email using PHP Sendmail.  Your server might not be configured to send mail using this method.";
-$lang['email_send_failure_smtp'] = "Unable to send email using PHP SMTP.  Your server might not be configured to send mail using this method.";
-$lang['email_sent'] = "Your message has been successfully sent using the following protocol: %s";
-$lang['email_no_socket'] = "Unable to open a socket to Sendmail. Please check settings.";
-$lang['email_no_hostname'] = "You did not specify a SMTP hostname.";
-$lang['email_smtp_error'] = "The following SMTP error was encountered: %s";
-$lang['email_no_smtp_unpw'] = "Error: You must assign a SMTP username and password.";
-$lang['email_failed_smtp_login'] = "Failed to send AUTH LOGIN command. Error: %s";
-$lang['email_smtp_auth_un'] = "Failed to authenticate username. Error: %s";
-$lang['email_smtp_auth_pw'] = "Failed to authenticate password. Error: %s";
-$lang['email_smtp_data_failure'] = "Unable to send data: %s";
-$lang['email_exit_status'] = "Exit status code: %s";
+/* Sergi Tur Badenas: https://github.com/acacha/CodeIgniter-catalan*/
+
+$lang['email_must_be_array'] = "El mètode de validació s'ha de passar com un array.";
+$lang['email_invalid_address'] = "Adreça de correu electrònic incorrecte: %s";
+$lang['email_attachment_missing'] = "No s'ha pogut trobar el següent fitxer adjunt: %s";
+$lang['email_attachment_unreadable'] = "No s'ha pogut obrir el fitxer adjunt: %s";
+$lang['email_no_recipients'] = "Cal indicar els recipients: To, Cc, o Bcc";
+$lang['email_send_failure_phpmail'] = "No s'ha pogut enviar el correu electrònic utilitzant PHP mail().  El vostre servidor potser no està configurat correctament.";
+$lang['email_send_failure_sendmail'] = "No s'ha pogut enviar el correu electrònic utilitzant PHP sendmail().  El vostre servidor potser no està configurat correctament."; 
+$lang['email_send_failure_smtp'] = "No s'ha pogut enviar el correu electrònic utilitzant SMTP.  El vostre servidor potser no està configurat correctament.";
+$lang['email_sent'] = "El vostre missatge s'ha enviat correctament utilitzant el següent mètode: %s.";
+$lang['email_no_socket'] = "No s'ha pogut obrir un socket per tal d'enviar el correu. Si us plau repasseu la configuració.";
+$lang['email_no_hostname'] = "No s'ha especificat el nom de màquina SMTP.";
+$lang['email_smtp_error'] = "Ha succeït el següent error SMTP: %s";
+$lang['email_no_smtp_unpw'] = "Error: Cal especificar un usuari i una paraula de pas SMTP.";
+$lang['email_failed_smtp_login'] = "No s'ha pogut realitzar la comanda AUTH LOGIN. Error: %s";
+$lang['email_smtp_auth_un'] = "No s'ha pogut autenticar el nom d'usuari. Error: %s";
+$lang['email_smtp_auth_pw'] = "No s'ha pogut autenticar la paraula de pas. Error: %s";
+$lang['email_smtp_data_failure'] = "No s'han pogut enviar les dades: %s";
+$lang['email_exit_status'] = "Codi d'estat al finalitzar: %s";
 
 
 /* End of file email_lang.php */

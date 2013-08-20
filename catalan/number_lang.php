@@ -1,5 +1,7 @@
 <?php
 
+/* Sergi Tur Badenas: https://github.com/acacha/CodeIgniter-catalan*/
+
 $lang['terabyte_abbr'] = "TB";
 $lang['gigabyte_abbr'] = "GB";
 $lang['megabyte_abbr'] = "MB";

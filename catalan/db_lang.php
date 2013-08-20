@@ -1,29 +1,31 @@
 <?php
 
-$lang['db_invalid_connection_str'] = 'Unable to determine the database settings based on the connection string you submitted.';
-$lang['db_unable_to_connect'] = 'Unable to connect to your database server using the provided settings.';
-$lang['db_unable_to_select'] = 'Unable to select the specified database: %s';
-$lang['db_unable_to_create'] = 'Unable to create the specified database: %s';
-$lang['db_invalid_query'] = 'The query you submitted is not valid.';
-$lang['db_must_set_table'] = 'You must set the database table to be used with your query.';
-$lang['db_must_use_set'] = 'You must use the "set" method to update an entry.';
-$lang['db_must_use_index'] = 'You must specify an index to match on for batch updates.';
-$lang['db_batch_missing_index'] = 'One or more rows submitted for batch updating is missing the specified index.';
-$lang['db_must_use_where'] = 'Updates are not allowed unless they contain a "where" clause.';
-$lang['db_del_must_use_where'] = 'Deletes are not allowed unless they contain a "where" or "like" clause.';
-$lang['db_field_param_missing'] = 'To fetch fields requires the name of the table as a parameter.';
-$lang['db_unsupported_function'] = 'This feature is not available for the database you are using.';
-$lang['db_transaction_failure'] = 'Transaction failure: Rollback performed.';
-$lang['db_unable_to_drop'] = 'Unable to drop the specified database.';
-$lang['db_unsuported_feature'] = 'Unsupported feature of the database platform you are using.';
-$lang['db_unsuported_compression'] = 'The file compression format you chose is not supported by your server.';
-$lang['db_filepath_error'] = 'Unable to write data to the file path you have submitted.';
-$lang['db_invalid_cache_path'] = 'The cache path you submitted is not valid or writable.';
-$lang['db_table_name_required'] = 'A table name is required for that operation.';
-$lang['db_column_name_required'] = 'A column name is required for that operation.';
-$lang['db_column_definition_required'] = 'A column definition is required for that operation.';
-$lang['db_unable_to_set_charset'] = 'Unable to set client connection character set: %s';
-$lang['db_error_heading'] = 'A Database Error Occurred';
+/* Sergi Tur Badenas: https://github.com/acacha/CodeIgniter-catalan*/
+
+$lang['db_invalid_connection_str'] = "No s'ha pogut determinar les dades de configuració de la base de dades basant-se en l'string de connexió que s'ha proporcionat.";
+$lang['db_unable_to_connect'] = "No s'ha pogut connectar a la base de dades amb les opcions proporcionades.";
+$lang['db_unable_to_select'] = "No s'ha pogut seleccionar la base de dades: %s";
+$lang['db_unable_to_create'] = "No s'ha pogut crear la base de dades especificada: %s";
+$lang['db_invalid_query'] = "La consulta especificada no és vàlida.";
+$lang['db_must_set_table'] = "Cal especificar la taula de la base de dades a utilitzar per tal de realitzar la consulta.';
+$lang['db_must_use_set'] = 'Cal utilitzar el mètode "set" per actualitzar una entrada.';
+$lang['db_must_use_index'] = "Cal especificar un índex en els batch updates.";
+$lang['db_batch_missing_index'] = "Falta l'índex d'una o més de les files indicades per fer realitzar un batch update.";
+$lang['db_must_use_where'] = 'Les actualitzacions no estan permeses sinó contenen una clausúla "where".';
+$lang['db_del_must_use_where'] = "No es pot realitzar una operació d'eliminació sense una claúsula "where" o "like".';
+$lang['db_field_param_missing'] = "Per tal d'obtenir els camps és necessari el nom de la taula com a paràmetre.";
+$lang['db_unsupported_function'] = "Aquesta caracterñistica no està disponible amb el tipus de base de dades utilitzada.";
+$lang['db_transaction_failure'] = "Error en la transacció: S'ha realitzat un roolback.";
+$lang['db_unable_to_drop'] = "No s'ha pogut eliminar la base de dades específicada.";
+$lang['db_unsuported_feature'] = "Característica no suportada pel típus de base de dades utilitzada.";
+$lang['db_unsuported_compression'] = "El format de compressió del fitxer escollit no està suportat pel servidor.";
+$lang['db_filepath_error'] = "No s'ha pogut escriure a la carpeta indicada.";
+$lang['db_invalid_cache_path'] = "La carpeta cache indicada  no és vàlida o no si pot escriure.";
+$lang['db_table_name_required'] = "Es requereix un nom de taula per fer aquesta operació.";
+$lang['db_column_name_required'] = "Es requereix un nom de columna per fer aquesta operació.";
+$lang['db_column_definition_required'] = "Es requereix una definició de columna per fer aquesta operació.";
+$lang['db_unable_to_set_charset'] = "No s'ha pogut establir la connexió de client, character set: %s.";
+$lang['db_error_heading'] = "Ha succeït un error de base de dades.";
 
 /* End of file db_lang.php */
 /* Location: ./system/language/english/db_lang.php */

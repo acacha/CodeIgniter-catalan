@@ -1,14 +1,16 @@
 <?php
 
-$lang['ut_test_name']		= 'Test Name';
-$lang['ut_test_datatype']	= 'Test Datatype';
-$lang['ut_res_datatype']	= 'Expected Datatype';
-$lang['ut_result']			= 'Result';
-$lang['ut_undefined']		= 'Undefined Test Name';
-$lang['ut_file']			= 'File Name';
-$lang['ut_line']			= 'Line Number';
-$lang['ut_passed']			= 'Passed';
-$lang['ut_failed']			= 'Failed';
+/* Sergi Tur Badenas: https://github.com/acacha/CodeIgniter-catalan*/
+
+$lang['ut_test_name']		= 'Nom del test';
+$lang['ut_test_datatype']	= 'Tipus de dades del test';
+$lang['ut_res_datatype']	= 'Tipus de dades experat';
+$lang['ut_result']			= 'Resultat';
+$lang['ut_undefined']		= 'Nom del test no definit';
+$lang['ut_file']			= 'Nom del fitxer';
+$lang['ut_line']			= 'Número de línia';
+$lang['ut_passed']			= 'Correcte';
+$lang['ut_failed']			= 'Incorrecte';
 $lang['ut_boolean']			= 'Boolean';
 $lang['ut_integer']			= 'Integer';
 $lang['ut_float']			= 'Float';
