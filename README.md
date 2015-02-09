@@ -7,17 +7,17 @@ Traducció al català de codeigniter
 Author:
 
 Sergi Tur Badenas
-*http://acacha.org
-*http://acacha.org/sergitur
+* http://acacha.org
+* http://acacha.org/sergitur
 
 Created for ebre-escool app:
-*https://github.com/acacha/ebre-escool
-*http://acacha.org/mediawiki/index.php/Ebre-escool
+* https://github.com/acacha/ebre-escool
+* http://acacha.org/mediawiki/index.php/Ebre-escool
 
 INSTALL
 =======
 
-*http://acacha.org/mediawiki/index.php/CodeIgniter#Traduccions_en_catal%C3%A0
+* http://acacha.org/mediawiki/index.php/CodeIgniter#Traduccions_en_catal%C3%A0
 
 CONTRIBUTE
 ==========
