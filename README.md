@@ -17,7 +17,7 @@ Created for ebre-escool app:
 INSTALL
 =======
 
-* http://acacha.org/mediawiki/index.php/CodeIgniter#Traduccions_en_catal%C3%A0
+* http://acacha.org/mediawiki/index.php/CodeIgniter#Traduccions_en_catal.C3.A0
 
 CONTRIBUTE
 ==========
