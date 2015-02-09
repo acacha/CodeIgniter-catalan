@@ -1,7 +1,7 @@
 CodeIgniter-catalan
 ===================
 
-CodeIgniter catalan language pack. 
+CodeIgniter catalan language pack/
 Traducció al català de codeigniter
 
 Author:
@@ -22,7 +22,6 @@ INSTALL
 CONTRIBUTE
 ==========
 
-Please if you see any errors please make a Pull request
-Si trobeu qualsevol error si us plau feu un Pull Request
+Please if you see any errors please make a Pull request/Si trobeu qualsevol error si us plau feu un Pull Request
 
 
